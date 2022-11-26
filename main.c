@@ -1,30 +1,33 @@
 #include <stdio.h>
+#include <string.h>
 
-#define SIZE_TAB 5
-
-int * creer_tableau(void);
-void afficher_tableau(int tab[], int taille);
+/*
+    [Fonctions des chaines]
+        strcpy() : copier un string dans un autre
+        strlen() : calcule la taille d'un string
+        strcmp() : comparer deux string
+        strstr() : cherche un string dans un autre
+        strchr() : chercher première occurence du caractère
+        sprintf() : écrire dans un string
+*/
 
 int main() {
-    int * tableau = creer_tableau();
 
-    afficher_tableau(tableau, SIZE_TAB);
+    signed char prenom[25] = "Diego";
+    signed char stockage[256];
+
+    printf("Ton prénom de base -> %s\n", prenom);
+
+    printf("Changer de prénom ?");
+    scanf("%s", stockage);
+
+    strcpy(prenom, stockage);
+
+    printf("Ton nouveau prénom -> %s\n", prenom);
+
+    printf("Ton prenom fait %d de longueur\n", strlen(prenom));
+
+
 
     return 0;
-}
-
-int * creer_tableau(void) {
-    static int tableau_entier[5];
-
-    for (int i = 0; i < 5; ++i) {
-        tableau_entier[i] = i * 3;
-    }
-
-    return tableau_entier;
-}
-
-void afficher_tableau(int tab[], int taille) {
-    for (int i = 0; i < taille; ++i) {
-        printf("[%d]", tab[i]);
-    }
 }

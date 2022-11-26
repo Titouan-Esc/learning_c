@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-f2e5b51c979fa9ad8cf1.json",
+					"jsonFile" : "target-test-Debug-007a26271a2eb8f27f3b.json",
 					"name" : "test",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/titouanescorneboueu/CLionProjects/test/cmake-build-debug",
-		"source" : "/Users/titouanescorneboueu/CLionProjects/test"
+		"build" : "/Users/titouan/Documents/learning_c/cmake-build-debug",
+		"source" : "/Users/titouan/Documents/learning_c"
 	},
 	"version" : 
 	{
