@@ -1,33 +1,29 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
-    [Fonctions des chaines]
-        strcpy() : copier un string dans un autre
-        strlen() : calcule la taille d'un string
-        strcmp() : comparer deux string
-        strstr() : cherche un string dans un autre
-        strchr() : chercher première occurence du caractère
-        sprintf() : écrire dans un string
-*/
+// pointeur->champ = X;
+// Remplace (*pointeur).champ = X;
+
+typedef struct Player {
+    signed char username[256];
+    int hp;
+    int mp;
+} Player;
+
+void create_player(Player *p) {
+    strcpy(p->username, "Diego");
+    p->hp = 100;
+    p->mp = 100;
+}
 
 int main() {
 
-    signed char prenom[25] = "Diego";
-    signed char stockage[256];
+    Player p1 = {"", 0, 0};
 
-    printf("Ton prénom de base -> %s\n", prenom);
+    create_player(&p1);
 
-    printf("Changer de prénom ?");
-    scanf("%s", stockage);
-
-    strcpy(prenom, stockage);
-
-    printf("Ton nouveau prénom -> %s\n", prenom);
-
-    printf("Ton prenom fait %d de longueur\n", strlen(prenom));
-
-
+    printf("Nom du joueur -> %s\n", p1.username);
+    printf("PV : %d | PM : %d\n", p1.hp, p1.mp);
 
     return 0;
 }
