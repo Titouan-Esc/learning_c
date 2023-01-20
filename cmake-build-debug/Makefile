@@ -153,29 +153,29 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.s
 .PHONY : main.c.s
 
-stack.o: stack.c.o
-.PHONY : stack.o
+queue.o: queue.c.o
+.PHONY : queue.o
 
 # target to build an object file
-stack.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/stack.c.o
-.PHONY : stack.c.o
+queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/queue.c.o
+.PHONY : queue.c.o
 
-stack.i: stack.c.i
-.PHONY : stack.i
+queue.i: queue.c.i
+.PHONY : queue.i
 
 # target to preprocess a source file
-stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/stack.c.i
-.PHONY : stack.c.i
+queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/queue.c.i
+.PHONY : queue.c.i
 
-stack.s: stack.c.s
-.PHONY : stack.s
+queue.s: queue.c.s
+.PHONY : queue.s
 
 # target to generate assembly for a file
-stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/stack.c.s
-.PHONY : stack.c.s
+queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/queue.c.s
+.PHONY : queue.c.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... stack.o"
-	@echo "... stack.i"
-	@echo "... stack.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
 .PHONY : help
 
 

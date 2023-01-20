@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test.dir/main.c.o"
   "CMakeFiles/test.dir/main.c.o.d"
-  "CMakeFiles/test.dir/stack.c.o"
-  "CMakeFiles/test.dir/stack.c.o.d"
+  "CMakeFiles/test.dir/queue.c.o"
+  "CMakeFiles/test.dir/queue.c.o.d"
   "test"
   "test.pdb"
 )

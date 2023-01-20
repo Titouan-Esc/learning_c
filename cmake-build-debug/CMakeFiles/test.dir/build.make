@@ -83,30 +83,30 @@ CMakeFiles/test.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/titouanescorneboueu/Documents/learning_c/main.c -o CMakeFiles/test.dir/main.c.s
 
-CMakeFiles/test.dir/stack.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/stack.c.o: /Users/titouanescorneboueu/Documents/learning_c/stack.c
-CMakeFiles/test.dir/stack.c.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/titouanescorneboueu/Documents/learning_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/stack.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/stack.c.o -MF CMakeFiles/test.dir/stack.c.o.d -o CMakeFiles/test.dir/stack.c.o -c /Users/titouanescorneboueu/Documents/learning_c/stack.c
+CMakeFiles/test.dir/queue.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/queue.c.o: /Users/titouanescorneboueu/Documents/learning_c/queue.c
+CMakeFiles/test.dir/queue.c.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/titouanescorneboueu/Documents/learning_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test.dir/queue.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/queue.c.o -MF CMakeFiles/test.dir/queue.c.o.d -o CMakeFiles/test.dir/queue.c.o -c /Users/titouanescorneboueu/Documents/learning_c/queue.c
 
-CMakeFiles/test.dir/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/stack.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/titouanescorneboueu/Documents/learning_c/stack.c > CMakeFiles/test.dir/stack.c.i
+CMakeFiles/test.dir/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/queue.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/titouanescorneboueu/Documents/learning_c/queue.c > CMakeFiles/test.dir/queue.c.i
 
-CMakeFiles/test.dir/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/stack.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/titouanescorneboueu/Documents/learning_c/stack.c -o CMakeFiles/test.dir/stack.c.s
+CMakeFiles/test.dir/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/queue.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/titouanescorneboueu/Documents/learning_c/queue.c -o CMakeFiles/test.dir/queue.c.s
 
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/main.c.o" \
-"CMakeFiles/test.dir/stack.c.o"
+"CMakeFiles/test.dir/queue.c.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
 test: CMakeFiles/test.dir/main.c.o
-test: CMakeFiles/test.dir/stack.c.o
+test: CMakeFiles/test.dir/queue.c.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/titouanescorneboueu/Documents/learning_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable test"

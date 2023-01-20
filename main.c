@@ -1,40 +1,23 @@
 #include <stdio.h>
-#include "stack.h"
+#include "queue.h"
 
 int main(void) {
 
-    Player p1 = {"Oscar", 22};
-    Player p2 = {"Diego", 200};
-    Player p3 = {"Joachim", 500};
-    Player p4 = {"Gege", 100000000};
+    printf("Longeur de la queue : %d\n", length_queue());
+    print_queue();
 
-    Stack sta = new_stack();
-    print_stack(sta);
-    printf("Taille de la pile : %d\n", stack_length(sta));
+    push_queue(22);
+    push_queue(33);
+    push_queue(156);
+    printf("Longeur de la queue : %d\n", length_queue());
+    print_queue();
 
-    printf("\n-------------------------------------\n");
+    pop_queue();
+    printf("Longeur de la queue : %d\n", length_queue());
+    print_queue();
 
-    sta = push_stack(sta, p1);
-    sta = push_stack(sta, p2);
-    sta = push_stack(sta, p3);
-    sta = push_stack(sta, p4);
-    print_stack(sta);
-    printf("Taille de la pile : %d\n", stack_length(sta));
-
-    Player last = top_stack(sta);
-    printf("Dernier joueur : %s (%d)\n", last.name, last.level);
-
-    printf("\n-------------------------------------\n");
-
-    sta = pop_stack(sta);
-    print_stack(sta);
-    printf("Taille de la pile : %d\n", stack_length(sta));
-
-    printf("\n-------------------------------------\n");
-
-    sta = clear_stack(sta);
-    print_stack(sta);
-    printf("Taille de la pile : %d\n", stack_length(sta));
+    clear_queue();
+    print_queue();
 
     return 0;
 }

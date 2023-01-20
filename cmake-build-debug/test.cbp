@@ -81,10 +81,10 @@
 		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/main.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/stack.c">
+		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/queue.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/stack.h">
+		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/queue.h">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/CMakeLists.txt">
