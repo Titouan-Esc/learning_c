@@ -81,6 +81,12 @@
 		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/main.c">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/stack.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/stack.h">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/Users/titouanescorneboueu/Documents/learning_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
